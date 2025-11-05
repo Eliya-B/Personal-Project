@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+header {
+    background-color:cadetblue;
+    padding: 50px;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+img {
+    width: 680px;
+    height: 530px;
+    margin: 50px;
+    border-radius: 45px;
+}
+
+img:hover {
+    box-shadow: 0 0 20px 5px #00bcd4; 
+    border-radius: 45px;
+    transform: scale(1.05); 
+}
+
+#style1 {
+    position: absolute;
+    top: 345px;
+    left: 760px;
+}
+
+#style2 {
+    position: absolute;
+    top: 430px;
+    left: 760px;
+    width: 700px;
+    line-height: 40px;
+}
+
+#style3 {
+    position: absolute;
+    top: 975px;
+    left: 760px;
+}
+
+#style4 {
+    position: absolute;
+    top: 1060px;
+    left: 760px;
+    width: 700px;
+    line-height: 40px;
+}
+
+#style5 {
+    position: absolute;
+    top: 1610px;
+    left: 760px;
+}
+
+#style6 {
+    position: absolute;
+    top: 1695px;
+    left: 760px;
+    width: 700px;
+    line-height: 40px;
+}
+
+#style7 {
+    position: absolute;
+    top: 2245px;
+    left: 760px;
+}
+
+#style8 {
+    position: absolute;
+    top: 2330px;
+    left: 760px;
+    width: 700px;
+    line-height: 40px;
+}
+
+#style9 {
+    position: absolute;
+    top: 2880px;
+    left: 760px;
+}
+
+#style10 {
+    position: absolute;
+    top: 2965px;
+    left: 760px;
+    width: 700px;
+    line-height: 40px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    bottom: auto;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: whitesmoke;
+    text-shadow: 0 0 5px #00bcd4;
+}
+
+footer .copyright {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+}

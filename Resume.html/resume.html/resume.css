@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+header {
+    background-color:cadetblue;
+    padding: 50px;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20px ;
+}
+
+h2 {
+    background-color: beige;
+    color: black;
+    padding: 7px;
+    font-size: 37px;
+    border-radius: 5px;
+    width: 650px;
+}
+
+h1 {
+    color: white;
+}
+
+#style1 {
+    margin: 30px;
+}
+
+#style2 {
+    margin: 30px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+#style3 {
+    margin: 30px;
+}
+
+#style4 {
+    margin: 30px;
+    padding-bottom: 15px;
+    width: 450px;
+    line-height: 1.5;
+}
+
+#style5 {
+    margin: 30px;
+}
+
+#style6 {
+    margin: 10px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    width: 450px;
+}
+
+#style7 {
+    margin: 30px;
+}
+
+#style8 {
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#style9 {
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    width: 450px;
+}
+
+#style10 {
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#style11 {
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    width: 450px;
+}
+
+#style12 {
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
+
+#style13 {
+    position: absolute;
+    top: 650px;
+    left: 800px;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+#style14 {
+    position: absolute;
+    top: 820px;
+    left: 800px;
+}
+
+#style15 {
+    position: absolute;
+    top: 890px;
+    left: 800px;
+    width: 500px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    bottom: auto;
+}
+
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: whitesmoke;
+    text-shadow: 0 0 5px #00bcd4;
+}
+
+footer .copyright {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+}
